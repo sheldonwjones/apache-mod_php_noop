@@ -7,7 +7,7 @@ The mod\_php\_noop package provides an Apache module that implements the php\_va
 
 This prevents the 500 internal server error when apache encounters the php\_value or php\_flag options in .htaccess files when mod\_php is not installed.
 
-I created this module when moving to php-fpm. Many of my users were not using the <IfModule php5_module> test in their .htaccess files. I didn't want to install php5 on my apache2.4 servers which proxy all php to my php-fpm servers.
+I created this module when moving to php-fpm. Many of my users were not using the \<IfModule php5_module\> test in their .htaccess files. I didn't want to install php5 on my apache2.4 servers which proxy all php to my php-fpm servers.
 
 For example. PHP via fcgi proxy to a different php-fpm server.
 
